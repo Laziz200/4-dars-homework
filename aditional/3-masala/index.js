@@ -4,7 +4,10 @@ for (let i = 1; i <= son; i++) {
     var num=Number(prompt(`${i} chi sonni kiriting:`));
     arr[arr.length]=num;
 }
-alert(arr);
-
-arr.reverse();
-alert(arr);
+for (let i = 0; i < arr.length; i++) {
+    var min=arr[i];
+    if (min>=arr[i]) {
+        min=arr[i];
+    }
+}
+alert(min);
